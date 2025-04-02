@@ -29,7 +29,7 @@ movies_dict=pickle.load(open('movies_dict.pkl', 'rb'))
 movies_data= pd.DataFrame(movies_dict)
 
 similarity=pickle.load(open('similarity.pkl', 'rb'))
-st.header('Bollywood Movie Recommender System')
+st.header('Hollywood Movie Recommender System')
 
 option = st.selectbox(
     "How would you like to be contacted?",
